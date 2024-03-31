@@ -1,4 +1,4 @@
-
+ 
 *{
     margin:0;
     box-sizing:border-box;
@@ -20,17 +20,32 @@ div{
      margin-top: 3px;
      font-weight: 450;
      box-shadow: 3px 3px 7px #000000;
+     border-bottom: 1px solid white;
+     border-left: 1px solid white;
+    
     
 }
-fieldset{
+#main-cal{
     height: 560px;
     width:320px;
     background-color :#1d2333;
+    margin-top:4px;
+    border: none;
+    border-radius: 5px; 
+    box-shadow:3px  3px 7px  black;
      
-    margin-left:100px;
-    border-radius: 10px;
-    border:none;
-    box-shadow: 3px 3px 7px #000000;
+    
+}
+ #cover{
+    height: 640px;
+    margin-top: 20px;
+    width:320px;
+    margin-left: 300px;
+    background-color: #c6bfbf6c;
+    border-radius: 3%;
+    border: none;
+    box-shadow:3px  3px 7px  black;
+
 }
 #ui4{
     background-color: white;
@@ -101,6 +116,7 @@ text-shadow: 3px 3px 7px #000000;
 .calculation{
     color:white;
     position:relative;
+    width: 80px;
     top:90px;
     left:230px;
     text-shadow:3px 3px 7px #000000;
@@ -115,11 +131,17 @@ h1{
     cursor:pointer;
 }
 div:hover{
-    background-color:#8595bc;
-     
-}
+    background-color:#0b0b0b;
+
+} 
+
 div:active{
     background-color: #131a2c;
+    border-bottom: 1px solid #131a2c ;
+    border-left: 1px solid #131a2c ;
+    border-top: 1px solid #ffffff ;
+    border-right: 1px solid #ffffff ;
+    
 }
  #settings:hover{
     box-shadow: 2px 2px 6px hsl(107, 100%, 3%);
@@ -184,6 +206,46 @@ div:active{
     font-size: larger;
     cursor:pointer;
  }
- body:hover{
-    background-color: #414244;
+ 
+ #cover:hover{
+    background-color:#131a2c;
+    #mode-on{
+        color:green;
+        background-color: #131a2c;
+        
+    }
+    #mode-off{
+        color: #131a2c ;
+        background-color: #131a2c;
+        
+    }
+}
+ 
+ #mode-on{
+    position: relative;
+    top:10px;
+    left:10px;
+    height:50px;
+    width: 70px;
+    border-radius: 30%;
+    background-color: #7a76766c;
+    color: rgb(119, 119, 119);
+     border:none;
+    font-weight: 700;
+    font-size: 27px;
  }
+ #mode-off{
+    position: relative;
+    top:10px;
+    left:170px;
+    height:50px;
+    width: 70px;
+    
+    border-radius: 30%;
+    background-color: #7a76766c;
+    color:  rgb(74, 2, 2);
+     border: none;
+    font-weight: 700;
+    font-size: 27px;
+ }
+  
