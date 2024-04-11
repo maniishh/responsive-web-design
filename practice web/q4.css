@@ -1,0 +1,18 @@
+*{
+    color:white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    border-color: white;
+}
+#div1{ 
+    color:#f08804;
+    font-size:25px;
+}
+a{
+    margin-right: 150px;
+}
+button{
+    background-color:#f08804;
+}

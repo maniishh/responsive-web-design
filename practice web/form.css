@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+}
+.f0{
+    width: 93%;
+    margin-left: 32px;
+    background-color: white;
+}
+#h2{
+background-color: rgb(10, 10, 152);
+color:white;
+height: 45px;
+
+ 
+}
+body{
+   font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(252, 252, 248);
+    font-weight: 400;
+}
+div h2{
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 4px;
+}
+.left-part{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ font-size: 20px;;
+ width: 500px;
+}  
+.right-part{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 20px;
+} 
+  
+
+.f1{
+   width: 50%;
+   position: relative;
+   margin-left: 0;
+   border: none;
+ 
+}
+.f2{
+  width: 50%;
+  position: relative;
+  left:670px;
+  bottom:450px;
+  height: 410px;
+  padding-top: 40px;
+   border: none;
+  
+}
+label{
+  display: flex;
+  gap: 100px;
+}
+ 

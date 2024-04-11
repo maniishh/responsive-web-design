@@ -1,0 +1,60 @@
+div{
+    margin-top: 25px;
+}
+footer{
+    margin-top: 100px;
+    background-color:rgb(31, 26, 26) ;
+    height: 30px;
+    color: white;
+}
+
+#h1{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(255, 255, 100, 0.5);
+    border-style:solid;
+    border-color: black;
+    text-align: center;
+     
+
+}
+
+#h2{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(100, 255, 255, 0.5);
+    border-style:solid;
+    border-color: black; 
+    text-align: center;
+}
+#h3{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(255,100, 255, 0.5);
+    border-style:solid;
+    border-color: black;
+     text-align: center;
+}
+header{
+    background-color: black;
+    height: 50px;
+    
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+    border-color: white;
+}
+#div1{ 
+    color:#f08804;
+    font-size:25px;
+}
+a{
+    margin-right: 150px;
+    color:white;
+}
+button{
+    background-color:#f08804;
+}
